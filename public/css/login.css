@@ -1,0 +1,161 @@
+.teste
+{
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    margin: 5% 0% 4% 35%;
+    background-color: rgb(152, 211, 238);
+    border-radius: 10px;
+}
+
+.teste label
+{
+    margin-top: 10px;
+}
+
+.box-login{
+    width:100vw;
+    min-height:80vh;
+    display:flex;
+    justify-content: center;
+    padding:2%;
+    margin-top:3% 0;
+}
+.box-editar{
+
+    display:flex;
+    justify-content: center;
+    padding:2%;
+    margin-top:3% 0;
+}
+.box-login form{
+    height:500px;
+    width:350px;
+    padding:1% 1%;
+
+    border-radius:4px;
+    box-shadow: 0px 10px 20px 3px rgba(0, 0, 0, 0.18);
+}
+.box-editar form{
+
+    width:60vw;
+    padding:1% 1%;
+    border-radius:4px;
+    box-shadow: 0px 10px 20px 3px rgba(0, 0, 0, 0.18);
+}
+
+
+.box-cadastro{
+    width:100vw;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    padding:2%;
+    margin-top:3% 0;
+}
+.box-cadastro form{
+    width:38vw;
+    min-height:70vh;
+    padding:4%;
+    border-radius:4px;
+    box-shadow: 0px 10px 20px 3px rgba(0, 0, 0, 0.18);
+}
+
+.box-cadastro-ong, .box-cadastro-evento{
+    width:100vw;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    padding:1%;
+    margin-top:3% 0;
+}
+.box-cadastro-ong form{
+    width:50vw;
+    min-height:70vh;
+    padding:2%;
+    border-radius:4px;
+    box-shadow: 0px 10px 20px 3px rgba(0, 0, 0, 0.18);
+}
+
+
+.box-cadastro-evento form{
+    width:65vw;
+    min-height:70vh;
+    padding:2%;
+    border-radius:4px;
+    box-shadow: 0px 10px 20px 3px rgba(0, 0, 0, 0.18);
+}
+
+.preview-text{
+    width:100%;
+}
+
+.preview-img{
+    width:100%;
+    height:200px;
+}
+
+#preview{
+}
+
+.preview-img-event{
+
+    width:200px;
+    height:200px;
+
+}
+
+.preview-img-avatar{
+
+    width:200px;
+    height:200px;
+
+}
+
+
+
+
+
+
+
+.cadastro{
+    width:40vw;
+}
+
+.cadastro label
+{
+    margin-top: 10px;
+}
+
+.background
+{
+    background-color: black;
+}
+
+@media screen and (max-width: 767px) {
+    .box-cadastro form{
+        width:90vw;
+    }
+
+    .box-cadastro-ong form{
+        width:90vw;
+    }
+    .box-editar form{
+        width:90vw;
+
+    }
+
+}
+
+@media screen and (max-width: 460px) {
+    .box-login form{
+       padding:6%;
+    }
+    .box-cadastro form{
+        width:90vw;
+    }
+    .box-editar form{
+        width:90vw;
+
+    }
+  }
